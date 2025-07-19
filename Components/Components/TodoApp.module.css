@@ -1,0 +1,58 @@
+.container{
+    max-width: '400px';
+    margin: '40px auto';
+    padding: '20px';
+    border-radius: '12px';
+    background-color: '#f4f4f4';
+    box-shadow: '0 0 10px rgba(0,0,0,0.2)';
+    font-family: 'Arial, sans-serif';
+  }
+  .inputArea{
+    display: 'flex';
+    gap: '10px';
+  }
+  .input{
+    flex: 1;
+    padding: '10px';
+    border-radius: '8px';
+    border: '1px solid #ccc';
+  }
+  .addBtn{
+    padding: '10px 16px';
+    border: 'none';
+    border-radius: '8px';
+    background-color: '#007bff';
+    color: 'white';
+    cursor: 'pointer';
+  }
+  .list{
+    margin-top: '20px';
+    padding: 0;
+    list-style: 'none';
+  }
+  .listItem{
+    display: 'flex';
+    justify-content: 'space-between';
+    align-items: 'center';
+    padding: '10px 8px';
+    margin-bottom: '10px';
+    border-radius: '6px';
+    background-color: '#e0e0e0';
+  }
+  .editBtn{
+    margin-right: '10px';
+    padding: '5px 10px';
+    background-color: '#ffc107';
+    color: 'black';
+    border: 'none';
+    border-radius: '6px';
+    cursor: 'pointer';
+  }
+  .deleteBtn{
+    padding: '5px 10px';
+    background-color: '#dc3545';
+    color: 'white';
+    border: 'none';
+    border-radius: '6px';
+    cursor: 'pointer';
+  }
